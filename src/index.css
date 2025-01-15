@@ -1,0 +1,164 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.app-view {
+  width: 100%;
+  padding: 26px;
+}
+
+.app-top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 318px;
+  height: 40px;
+  border: 1px solid #E6ECF0;
+  border-radius: 4px;
+  padding-left: 57px;
+}
+
+.search-bar input::placeholder {
+  position: relative;
+  color: #C4C4C4;
+  /* left: 57px; */
+  font-size: 15px;
+}
+
+.search-bar img {
+  position: absolute;
+  left: 19px;
+  width: 24px;
+  height: 24px;
+}
+
+.main-container {
+  display: flex;
+  gap: 18px;
+}
+
+.new-item-button {
+  background-color: #0013FE;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  border: 0;
+}
+
+.todo {
+  max-width: 318px;
+  height: 816px;
+  border-radius: 5px;
+  background-color: #E6ECF0;
+  
+}
+
+.todo header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 16px 16px 16px;
+}
+
+.todo .taskStatus {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+
+.taskNumber {
+  border: 0;
+  border-radius: 50%;
+  background-color: #D5D5D5;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.todoBtn {
+  display: flex;
+  gap: 6px;
+}
+
+.todoBtn button {
+  border: 0;
+  border-radius: 50%;
+  background-color: #D5D5D5;
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.todo .card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 15px 12px 12px 12px;
+  margin-bottom: 12px;
+  margin-left: 15.5px;
+  margin-right: 15.5px;
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.taskTitle {
+  text-align: left;
+}
+
+.creator {
+  background-color: #0013FE;
+  color: white;
+  width: fit-content;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 5px;
+}
+
+.taskFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.taskFooter > div {
+  display: flex;
+  align-items: center;
+}
+
+.taskFooter img {
+  height: 24px;
+}
